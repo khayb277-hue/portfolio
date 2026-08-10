@@ -97,7 +97,9 @@ header {
         /* =========================
            HERO
         ========================= */
-
+.hero-text {
+    text-align: center;
+}
 
         /* =========================
            GENERAL SECTIONS
