@@ -256,12 +256,12 @@ section#about p {
             background: #ffffff;
         }
 
-        .about-grid {
-            display: grid;
-            grid-template-columns: 0.8fr 1.2fr;
-            gap: 70px;
-            align-items: center;
-        }
+.about-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 70px;
+    align-items: baseline;
+}
 
         .about-image {
             min-height: 400px;
@@ -285,12 +285,12 @@ section#about p {
             margin-bottom: 20px;
         }
 
-        .about-info {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            margin-top: 25px;
-        }
+.about-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
 
 .info-item {
     padding: 15px;
