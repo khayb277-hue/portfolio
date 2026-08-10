@@ -382,16 +382,16 @@ section#about p {
         }
 
         .service-card:hover {
-            border-color: #6366f1;
+            border-color: #FF9A00;
             transform: translateY(-5px);
         }
 
-        .service-number {
-            font-size: 14px;
-            color: #6366f1;
-            font-weight: 800;
-            margin-bottom: 20px;
-        }
+.service-number {
+    font-size: 14px;
+    color: #FF9A00;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
 
         .service-card h3 {
             font-size: 22px;
@@ -459,13 +459,13 @@ section#about p {
             gap: 8px;
         }
 
-        .project-tags span {
-            font-size: 12px;
-            padding: 5px 10px;
-            border-radius: 20px;
-            background: #eef2ff;
-            color: #4f46e5;
-        }
+ .project-tags span {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #325e6a26;
+    color: #224248;
+}
 
         /* =========================
            EXPERIENCE
@@ -486,19 +486,19 @@ section#about p {
             border-left: none;
         }
 
-        .timeline-item::before {
-            content: "";
-            position: absolute;
-            left: -7px;
-            top: 0;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #6366f1;
-        }
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #FF9A00;
+}
 
         .timeline-date {
-            color: #6366f1;
+            color: #FF9A00;
             font-size: 14px;
             font-weight: 700;
             margin-bottom: 8px;
