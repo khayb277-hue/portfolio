@@ -103,13 +103,30 @@ header {
            HERO
         ========================= */
 
+.hero .container.hero-content {
+    display: flex;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hero .hero-image.fade-up, .hero-text.fade-up {
+    width: 50%;
+}
+
+.hero-image.fade-up img {
+    width: 44vw;
+    display: inline-flex;
+    max-width: unset;
+    margin-left: -17%;
+}
 .hero {
     background-image: url('images/hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 10%;
-    padding-bottom: 7%;
+    padding-top: 9%;
+    padding-bottom: 0;
 }
 
 h1 {
@@ -152,6 +169,50 @@ span.dash {
     height: 1px;
 }
 
+.hero-text.fade-up {
+    padding-bottom: 8%;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 1.042vw;
+    width: 100%;
+    line-height: 1.5em;
+    padding-bottom: 12%;
+    padding-top: 4%;
+}
+.hero-buttons {
+    column-gap: 23px;
+    display: inline-flex;
+}
+.hero-buttons a {
+    height: 3vw !important;
+    background-color: #FF9A00;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 50px;
+    border: 2px solid #FF9A00;
+    color: #fff;
+    font-size: 0.88vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    letter-spacing: 3px;
+}
+
+.hero-buttons a:hover {
+    background-color: #fff;
+    color: #FF9A00;
+}
+
+.hero-buttons a.btn-outline {
+    background-color: transparent;
+}
+
+.hero-buttons a.btn-outline:hover{
+    color:#fff;
+    background-color: #FF9A00;
+}
 
         /* =========================
            GENERAL SECTIONS
