@@ -304,6 +304,12 @@ section#about p {
     margin-bottom: 5px;
 }
 
+.about-image img {
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
         .info-item span {
             color: #6b7280;
         }
@@ -312,10 +318,9 @@ section#about p {
            SKILLS
         ========================= */
 
-        .skills {
-            background: #f8fafc;
-        }
-
+.skills {
+    background: #325e6a26;
+}
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -335,19 +340,19 @@ section#about p {
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
         }
 
-        .skill-icon {
-            width: 55px;
-            height: 55px;
-            border-radius: 12px;
-            background: #eef2ff;
-            color: #6366f1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 800;
-            font-size: 20px;
-            margin-bottom: 20px;
-        }
+.skill-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    background: #325e6a26;
+    color: #FF9A00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.88vw;
+    margin-bottom: 20px;
+}
 
         .skill-card h3 {
             margin-bottom: 10px;
