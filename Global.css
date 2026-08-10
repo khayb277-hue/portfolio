@@ -104,18 +104,53 @@ header {
         ========================= */
 
 .hero {
-background-image: url('images/hero-bg.png');
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+    background-image: url('images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 7%;
 }
 
+h1 {
+    font-size: 4.33vw;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0.8em;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    display: inline-flex;
+}
+
+.hero h2 {
+    font-size: 1.15vw;
+    font-weight: 400;
+    letter-spacing: 0.3vw;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -1%;
+    padding-bottom: 3%;
+}
+span.orange-txt {
+    font-family: Tangerine;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 8vw;
+    color: #FF9A00;
+    margin-left: -2%;
+}
 
 .small-title {
     color: #FF9A00;
     font-size: 1.042vw;
 }
 
+span.dash {
+    background-color: #FF9A00;
+    width: 4vw;
+    display: flex;
+    height: 1px;
+}
 
 
         /* =========================
