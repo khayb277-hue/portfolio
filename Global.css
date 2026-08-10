@@ -58,8 +58,11 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-.logo img{
-width: 20vw
+.logo img {
+    width: 10vw;
+    height: 5vw;
+    object-fit: cover;
+    object-position: left;
 }
         .logo {
             font-size: 24px;
