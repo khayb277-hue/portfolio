@@ -42,16 +42,14 @@
         /* =========================
            HEADER
         ========================= */
-
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
-    background: #224248;
+    background: #fff;
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid #e5e7eb;
 }
 
         .navbar {
