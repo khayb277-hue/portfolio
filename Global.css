@@ -99,15 +99,13 @@ header {
            HERO
         ========================= */
 
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            padding: 120px 0 80px;
-            background:
-                radial-gradient(circle at top right, #e0e7ff 0%, transparent 35%),
-                linear-gradient(135deg, #f8fafc, #eef2ff);
-        }
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 120px 0 80px;
+    background: radial-gradient(circle at top right, #325E6A 0%, transparent 35%),                linear-gradient(0deg, #224248, #325E6A);
+}
 
         .hero-content {
             display: grid;
