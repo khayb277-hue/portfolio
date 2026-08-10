@@ -113,6 +113,13 @@ background-repeat: no-repeat;
     text-align: center;
 }
 
+.small-title {
+    color: #FF9A00;
+    font-size: 1.042vw;
+}
+
+
+
         /* =========================
            GENERAL SECTIONS
         ========================= */
