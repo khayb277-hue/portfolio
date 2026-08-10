@@ -102,6 +102,13 @@ header {
         /* =========================
            HERO
         ========================= */
+
+.hero {
+background-image: url('images/hero-bg.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
 .hero-text {
     text-align: center;
 }
