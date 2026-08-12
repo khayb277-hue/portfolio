@@ -35,7 +35,7 @@
         }
 
         .container {
-            width: min(1120px, 90%);
+            width: clamp(613.13px, 62.50vw, 1200px);
             margin: auto;
         }
 
