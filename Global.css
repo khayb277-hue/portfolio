@@ -184,6 +184,7 @@ span.dash {
 .hero-buttons {
     column-gap: 23px;
     display: inline-flex;
+    width: 100%;
 }
 .hero-buttons a {
     height: 3vw !important;
